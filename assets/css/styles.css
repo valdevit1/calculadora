@@ -1,0 +1,67 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("notebook.jpg");
+    overflow: hidden;
+    background: black;
+}
+
+.card {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.card2 {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#colorFinal {
+
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+
+.contenedor-botones{
+    text-align: center;
+}
+.element {
+    margin-bottom: 10px;
+}
+
+.total-btn {
+    background-color: yellow;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+input{
+    border-radius: 12px;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+}
+
+
+P{
+    color: white;
+}
+}
